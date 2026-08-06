@@ -175,7 +175,7 @@ input:focus { border-color: #d49b89; }
     text-decoration: none;
     color: #fff;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 600; 
 }
 .btn-wa { background: #25D366; }
 .btn-tg { background: #0088cc; }
