@@ -201,3 +201,38 @@ input:focus { border-color: #d49b89; }
     border-radius: 14px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.06);
 }
+/* Стили для плавающей кнопки звонка */
+.phone-float-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px; /* Если хотите перенести налево, замените right на left: 25px; */
+    width: 60px;
+    height: 60px;
+    background-color: #28a745; /* Зеленый цвет (ассоциируется со связью/успехом). Можно поменять на #007bff для синего */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    animation: phone-pulse 2s infinite;
+}
+
+.phone-float-btn:hover {
+    transform: scale(1.1);
+    background-color: #218838;
+}
+
+/* Эффект пульсации */
+@keyframes phone-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(40, 167, 69, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+    }
+}
