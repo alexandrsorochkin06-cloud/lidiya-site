@@ -13,10 +13,9 @@
 <nav class="nav-menu" aria-label="Основная навигация">
 <a href="index.html" class="active">Главная</a><a href="gallery.html">Галерея</a><a href="prices.html">Прайс</a><a href="reviews.html">Отзывы</a><a href="booking.html">Запись</a>
 </nav>
-
 <main>
 <section class="hero">
-<p style="color:var(--accent-dark);font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px">SOROCHKINA LIDIA</p>
+<p class="hero-kicker">SOROCHKINA LIDIA</p>
 <h1>Маникюр, которым хочется любоваться</h1>
 <p>Аккуратная обработка, ровное покрытие и стойкий результат в уютной домашней студии.</p>
 <div class="offer"><p>🎁 Новым клиентам — <strong>скидка 10%</strong> на первое посещение.</p></div>
@@ -25,8 +24,7 @@
 </section>
 
 <section class="section">
-<h2>Почему выбирают меня</h2>
-<p>Комфорт и аккуратность на каждом этапе процедуры.</p>
+<div class="section-heading"><div><h2>Почему выбирают меня</h2><p>Комфорт и аккуратность на каждом этапе процедуры.</p></div></div>
 <div class="benefits">
 <div class="benefit-card"><div class="benefit-icon">🧼</div><h3>Стерильность</h3><p>Крафт-пакет вскрывается при вас. Инструмент проходит обработку.</p></div>
 <div class="benefit-card"><div class="benefit-icon">✨</div><h3>Стойкость</h3><p>Тщательная подготовка ногтей и аккуратное покрытие без лишней толщины.</p></div>
@@ -35,7 +33,18 @@
 </section>
 
 <section class="section">
-<h2>Популярные услуги</h2>
+<h2>Безопасность и комфорт</h2>
+<p>Важные детали, которые создают спокойное впечатление от визита.</p>
+<div class="trust-grid">
+<div class="trust-item"><strong>🧼 Обработка инструментов</strong><span>Инструменты проходят обработку, а крафт-пакет вскрывается при клиенте.</span></div>
+<div class="trust-item"><strong>🏠 Спокойная атмосфера</strong><span>Домашняя студия без очередей и посторонней суеты.</span></div>
+<div class="trust-item"><strong>💅 Внимание к форме</strong><span>Аккуратная обработка, выравнивание и внимание к деталям.</span></div>
+<div class="trust-item"><strong>💬 Помощь с выбором</strong><span>Можно заранее обсудить услугу, дизайн и желаемый результат.</span></div>
+</div>
+</section>
+
+<section class="section">
+<div class="section-heading"><div><h2>Популярные услуги</h2><p>Основные процедуры и актуальная стоимость.</p></div><a class="mini-link" href="prices.html">Весь прайс →</a></div>
 <div class="price-list">
 <div class="price-item"><span class="price-name">Комбинированный маникюр</span><span class="price-value">800 ₽</span></div>
 <div class="price-item"><span class="price-name">Маникюр + гель-лак + укрепление</span><span class="price-value">1 600 ₽</span></div>
@@ -45,9 +54,12 @@
 </section>
 
 <section class="section">
-<h2>Работы</h2><p>От нежного нюда до сложного дизайна.</p>
+<div class="section-heading"><div><h2>Работы</h2><p>Нюд, френч, дизайн и укрепление.</p></div><a class="mini-link" href="gallery.html">Все работы →</a></div>
 <div class="gallery-grid">
-<img src="photo1.jpg" alt="Маникюр нюд" class="gallery-img"><img src="photo2.jpg" alt="Французский маникюр" class="gallery-img"><img src="photo3.jpg" alt="Маникюр с дизайном" class="gallery-img"><img src="photo4.jpg" alt="Укрепление ногтей" class="gallery-img">
+<div class="gallery-card"><img src="photo1.jpg" alt="Маникюр нюд" class="gallery-img"><span class="gallery-label">Нюд</span></div>
+<div class="gallery-card"><img src="photo2.jpg" alt="Французский маникюр" class="gallery-img"><span class="gallery-label">Френч</span></div>
+<div class="gallery-card"><img src="photo3.jpg" alt="Маникюр с дизайном" class="gallery-img"><span class="gallery-label">Дизайн</span></div>
+<div class="gallery-card"><img src="photo4.jpg" alt="Укрепление ногтей" class="gallery-img"><span class="gallery-label">Укрепление</span></div>
 </div>
 <a href="gallery.html" class="btn" style="margin-top:18px">Смотреть все работы</a>
 </section>
@@ -55,6 +67,7 @@
 <section class="section">
 <h2>О мастере</h2>
 <p>Я Лидия. Создаю аккуратный маникюр с вниманием к форме, чистоте обработки и деталям дизайна. Моя задача — чтобы результат нравился вам не только сразу после процедуры, но и в течение всей носки.</p>
+<a href="booking.html" class="btn" style="margin-top:4px">Обсудить запись</a>
 </section>
 
 <section class="section" style="text-align:center">
@@ -63,11 +76,10 @@
 <a href="booking.html" class="btn">Перейти к записи</a>
 </section>
 </main>
-
 <footer class="footer"><p>© 2026 Sorochkina Lidia</p></footer>
 </div>
-<a href="tel:+79208876591" class="phone-float-btn" aria-label="Позвонить">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="28" height="28" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-</a>
+<a href="tel:+79208876591" class="phone-float-btn" aria-label="Позвонить"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="25" height="25" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></a>
+<div class="mobile-cta"><a class="cta-primary" href="https://dikidi.ru/1671478" target="_blank" rel="noopener">📅 Записаться</a><a class="cta-secondary" href="booking.html">💬 Написать</a></div>
+<script src="script.js"></script>
 </body>
 </html>
