@@ -1,0 +1,11 @@
+{
+  "name": "Sorochkina Lidia — маникюр в Калуге",
+  "short_name": "Sorochkina Lidia",
+  "lang": "ru-RU",
+  "start_url": "/lidiya-site/",
+  "scope": "/lidiya-site/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#faf9f6",
+  "description": "Маникюр, гель-лак, укрепление, наращивание и дизайн ногтей в Калуге."
+}
